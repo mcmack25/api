@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ip-test-api", "ip-test-api.csproj", "{B01AEF15-C07A-4C56-B96D-509700CEB401}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ip-test-api.tests", "..\ip-test-api.tests\ip-test-api.tests.csproj", "{EC9CDE30-A114-400E-BAE8-9EDA82801144}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B01AEF15-C07A-4C56-B96D-509700CEB401}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B01AEF15-C07A-4C56-B96D-509700CEB401}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B01AEF15-C07A-4C56-B96D-509700CEB401}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B01AEF15-C07A-4C56-B96D-509700CEB401}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC9CDE30-A114-400E-BAE8-9EDA82801144}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC9CDE30-A114-400E-BAE8-9EDA82801144}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC9CDE30-A114-400E-BAE8-9EDA82801144}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC9CDE30-A114-400E-BAE8-9EDA82801144}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F51C6617-828E-4059-9B81-A4A3619EBAE4}
+	EndGlobalSection
+EndGlobal
